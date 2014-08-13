@@ -105,8 +105,8 @@ public class UploadUtil {
     public static void listFileOpt(HttpServletRequest req,HttpServletResponse resp,String domain){
 
         SaeStorage saeStorage = new SaeStorage(SaeUserInfo.getAccessKey(), SaeUserInfo.getSecretKey(), SaeUserInfo.getAppName());
-        int start = new Integer(Constant.request_parameter_start);
-        int size = new Integer(Constant.request_parameter_size);
+        int start = new Integer(req.getParameter(Constant.request_parameter_start));
+        int size = new Integer(req.getParameter(Constant.request_parameter_size));
         List<String> fileList = saeStorage.getList(domain, "*", size, start);
         int total = saeStorage.getFilesNum(domain, "");
         List<ListFileItemState> listFileStates = new ArrayList<ListFileItemState>();
@@ -137,8 +137,8 @@ public class UploadUtil {
     public static void listImgOpt(HttpServletRequest req,HttpServletResponse resp,String domain){
 
         SaeStorage saeStorage = new SaeStorage(SaeUserInfo.getAccessKey(), SaeUserInfo.getSecretKey(), SaeUserInfo.getAppName());
-        int start = new Integer(Constant.request_parameter_start);
-        int size = new Integer(Constant.request_parameter_size);
+        int start = new Integer(req.getParameter(Constant.request_parameter_start));
+        int size = new Integer(req.getParameter(Constant.request_parameter_size));
         List<String> fileList = saeStorage.getList(domain, "*", size, start);
         int total1 = saeStorage.getFilesNum(domain, "");
         List<ListImgItemState> listImgStates = new ArrayList<ListImgItemState>();

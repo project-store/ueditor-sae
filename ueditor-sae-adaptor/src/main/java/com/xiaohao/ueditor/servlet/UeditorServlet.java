@@ -47,7 +47,7 @@ public class UeditorServlet extends HttpServlet {
 
         } else if (Constant.action_type_listfile.equals(actionType)) {
 
-            UploadUtil.listImgOpt(req, resp, Constant.domain_name_file);
+            UploadUtil.listFileOpt(req, resp, Constant.domain_name_file);
 
         }
 

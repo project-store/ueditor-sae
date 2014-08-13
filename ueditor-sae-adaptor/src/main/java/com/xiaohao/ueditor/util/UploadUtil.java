@@ -26,6 +26,11 @@ import java.util.UUID;
  */
 public class UploadUtil {
 
+
+    private UploadUtil(){
+
+    }
+
     /**
      * 上传文件到不同的domain中 返回一个上传正常的json串给客户端
      * @param servletContext

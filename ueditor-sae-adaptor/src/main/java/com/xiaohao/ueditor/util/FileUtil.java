@@ -10,6 +10,8 @@ import java.util.UUID;
  */
 public class FileUtil {
 
+    private FileUtil() {
+    }
 
     /**
      * 根据文件名取得扩展名

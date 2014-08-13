@@ -13,6 +13,9 @@ import java.io.*;
  */
 public class JsonUtil {
 
+    private JsonUtil() {
+    }
+
     public static JSONObject jsonConfig;
 
     /**

@@ -35,6 +35,11 @@ public class Constant {
     public static final String action_type_listfile ="listfile";
 
     /**
+     * ueditor截图功能
+     */
+    public static final String action_type_catchimage="catchimage";
+
+    /**
      * 返回配置的操作
      */
     public static final String action_type_config ="config";

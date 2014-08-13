@@ -142,7 +142,6 @@
         <groupId>com.sina</groupId>
         <artifactId>sae-all</artifactId>
         <version>1.0.0</version>
-        <scope>provided</scope>
     </dependency>
     <!--添加json包-->
     <dependency>

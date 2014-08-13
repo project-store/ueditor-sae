@@ -74,8 +74,4 @@ public class FileUtil {
     }
 
 
-    public static void main(String[] args){
-        //System.out.print(getFileType("test.jpg"));
-        System.out.print(generatorNewFileName("jpg"));
-    }
 }

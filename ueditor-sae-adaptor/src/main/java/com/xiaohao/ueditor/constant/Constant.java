@@ -32,7 +32,7 @@ public class Constant {
     /**
      * 附件列表显示的操作
      */
-    public static final String action_type_listfile ="listimage";
+    public static final String action_type_listfile ="listfile";
 
     /**
      * 返回配置的操作

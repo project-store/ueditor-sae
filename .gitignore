@@ -4,3 +4,4 @@
 /ueditor-sae-adaptor/target
 /ueditor-sae-sample/target
 /ueditor-sae-sample/*.iml
+/ueditor-sae-sample/src/main/webapp/*.tmp

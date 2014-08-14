@@ -131,6 +131,7 @@ public class UploadUtil {
         imgState.setStart(start);
         imgState.setTotal(total);
         JsonUtil.flushJsonResult(resp, imgState.toJsonString());
+
     }
 
     /**

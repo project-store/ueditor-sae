@@ -58,9 +58,9 @@ public class Constant {
      */
     public static final String domain_name_file="file";
     /**
-     * 涂鸦存放的domain
+     * 涂鸦存放的domain 不单独存放涂鸦，和图片存放到一起
      */
-    public static final String domain_name_draw="draw";
+    public static final String domain_name_draw="image";
 
     /**
      * 客户端请求后台的参数名
